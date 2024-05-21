@@ -1,0 +1,168 @@
+*{
+   
+    color: white;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+   text-transform: uppercase;
+    
+} 
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid ;
+    flex-shrink:0 ;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+     
+}
+body{
+     background-color: black;
+     display: flex;
+     
+}
+.menu{
+    background-color: #123;
+    width: 60px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+   transition: 1S;
+    
+}
+.menu:hover{
+    width: 450px;   
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+ul li a{
+  display: block; 
+  text-decoration: none; 
+  gap: 100px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+ul li a:hover, .active , .end:hover, td:hover {
+
+    background-color: rgb(52, 54, 56);
+}
+.end {
+   
+    position: absolute;
+    bottom: 0;
+    
+    height: 80px;
+    width: 100%;
+    background-color: red;
+    border-radius: 20PX;
+    align-items: center;
+    text-align: center;
+    
+ }
+.end i{
+    font-size:50px ;
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+}
+.end a{
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50%;
+}
+     
+
+ul li a i{
+    font-size: 30px;
+}
+.content{
+    width: 100%;
+    margin: 20px 10px;
+}
+.title-info{
+    display: flex;
+    padding: 20PX;
+margin-right:  10px;
+
+background-color: rgb(89, 0, 255);
+width: 100%;
+height: 50PX;
+border-radius: 10%;
+justify-content: space-between;
+align-items: center;
+
+}
+.data-info{
+   display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.data-info .box{
+    height: 150px;
+    width: 150px;
+     
+    
+    background-color: #123;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 8px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+.data-info .box:hover{
+    display: flex;
+    gap: 50%;
+    background-color: rgb(24, 17, 51);
+}
+.data-info .box i{
+font-size: 40px;
+}
+.data-info .box  span{
+    font-size: 60px;
+}
+
+table  {
+    width: 100%;
+    text-align: center;
+    border-spacing: 10px;
+    
+}
+
+th,td{
+    background-color: #123;
+    height: 50px;
+    border-radius: 10px;
+}
+
+th{
+    background-color: rgb(111, 165, 165);
+}
+.price,.count{
+border-radius: 10px;
+
+
+}
+.price{
+background-color: blue;
+
+
+}.count{
+    background-color: rgb(0, 255, 42);
+}
